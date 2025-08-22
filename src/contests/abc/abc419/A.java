@@ -1,0 +1,16 @@
+package contests.abc.abc419;
+
+import java.io.*;
+
+public class A {
+    public static void main(String[] args) throws IOException {
+        var in = new BufferedReader(new InputStreamReader(System.in));
+        var out = new PrintWriter(System.out);
+
+        int n = Integer.parseInt(in.readLine());
+
+
+        out.flush();
+        out.close();
+    }
+}
